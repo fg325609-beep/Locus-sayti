@@ -26,8 +26,11 @@ header{
             .navbar_left{
                 display: flex;
                 align-items: center;
+                gap: 10px;
+                color: rgba(88, 169, 165, 1);
                 i{
                     font-size: 31px;
+                    font-weight: 500;
                 }
             }
             .navbar_centr{
@@ -41,6 +44,11 @@ header{
                         font-size: 20px;
                         line-height: 100%;
                         letter-spacing: 0%;
+                        color: rgba(64, 66, 66, 1);
+                        &:hover{
+                            color: rgba(88, 169, 165, 1);
+                            text-decoration: underline rgba(254, 198, 45, 1) ;
+                        }
                         
                     }
                 }
@@ -58,7 +66,7 @@ header{
                     border-radius: 15px;
                     transition: all 1s ease-in-out;
                     &:hover{
-                        background:rgb(96, 155, 152) ;
+                        background:rgb(102, 150, 147) ;
                         
                         transform: rotate(360deg);
                     }
