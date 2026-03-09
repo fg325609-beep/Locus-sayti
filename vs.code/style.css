@@ -64,4 +64,53 @@ header .container .navbar .navbar_right a {
 header .container .navbar .navbar_right a:hover {
   background: rgb(102, 150, 147);
   transform: rotate(360deg);
+}
+
+main section .container .section_one {
+  display: flex;
+  align-items: center;
+}
+main section .container .section_one .section_one_left {
+  width: 60%;
+}
+main section .container .section_one .section_one_left h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main section .container .section_one .section_one_left p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 40px 0;
+}
+main section .container .section_one .section_one_left a {
+  padding: 15px 45px;
+  background: rgb(88, 169, 165);
+  color: rgb(255, 255, 255);
+  width: 271px;
+  opacity: 1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+main section .container .section_one .section_one_right {
+  width: 50%;
+  position: relative;
+}
+main section .container .section_one .section_one_right .img_two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+main section .container .section_one .section_one_right {
+  border-radius: 80px;
+}
+main section .container .section_one .section_one_right img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

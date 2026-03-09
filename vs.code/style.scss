@@ -79,3 +79,68 @@ header{
         }
     }
 }
+
+
+
+
+
+
+main{
+    section{
+        .container{
+            .section_one{
+                // flex-wrap: wrap;
+                display: flex;
+                align-items: center;
+                .section_one_left{
+                    width: 60%;
+                    h1{
+                        font-family: Poppins;
+                        font-weight: 700;
+                        font-size: 60px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        
+                    }
+                    p{
+                        font-family: Poppins;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        padding: 40px 0;
+                        
+                    }
+                    a{
+                       padding: 15px 45px;
+                       background: rgba(88, 169, 165, 1);
+                       color:rgba(255, 255, 255, 1);
+                       width: 271px;
+                       opacity: 1;
+                       border-top-left-radius: 20px;
+                       border-top-right-radius: 20px;
+                       border-bottom-right-radius: 20px;
+                       
+
+                    }
+
+                }
+                .section_one_right{
+                    width: 50%;
+                    position: relative;
+                    .img_two{
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      z-index: -10;
+                    }
+                    border-radius: 80px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}
