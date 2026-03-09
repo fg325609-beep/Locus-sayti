@@ -200,4 +200,87 @@ main section .container .section_two .section_two_right a {
   line-height: 100%;
   letter-spacing: 0%;
   color: rgb(72, 105, 88);
+}
+main section .container .section_thearee {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+main section .container .section_thearee .section_thearee_left {
+  width: 40%;
+}
+main section .container .section_thearee .section_thearee_left img {
+  width: 100%;
+}
+main section .container .section_thearee .section_thearee_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+main section .container .section_thearee .section_thearee_right h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 50px;
+}
+main section .container .section_thearee .section_thearee_right p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 0.5;
+}
+main section .container .section_foo_title {
+  text-align: center;
+}
+main section .container .section_foo_title h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main section .container .section_foo_title p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 50px 0;
+}
+main section .container .section_foo {
+  padding: 100px;
+}
+main section .container .section_foo .cads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container .section_foo .cads .card {
+  width: 28%;
+}
+main section .container .section_foo .cads .card img {
+  width: 100%;
+}
+main section .container .section_foo .cads .card h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(88, 169, 165);
+}
+main section .container .section_foo .cads .card p {
+  color: rgb(72, 105, 88);
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 20px 0;
 }/*# sourceMappingURL=style.css.map */

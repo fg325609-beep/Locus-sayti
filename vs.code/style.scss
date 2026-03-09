@@ -243,5 +243,113 @@ main{
                 }
         }
     }
+
+
+
+
+
+    section{
+        .container{
+            .section_thearee{
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                .section_thearee_left{
+                    width: 40%;
+                    img{
+
+                        width: 100%;
+                    }
+                }
+                .section_thearee_right{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    h1{
+                        font-family: Poppins;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        padding-bottom: 50px;
+                        
+                    }
+                    p{
+                        font-family: Poppins;
+                        font-weight: 500;
+                        font-size: 30px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        opacity: 0.5;
+
+                        
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    section{
+        .container{
+            .section_foo_title{
+                text-align: center;
+                h1{
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    
+                }
+                p{
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    padding: 50px 0;
+                    
+                }
+
+            }
+            .section_foo{
+                padding: 100px;
+                .cads{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .card{
+                        width: 28%;
+                        img{
+                            width: 100%;
+                        }
+                        h1{
+                            font-family: Poppins;
+                            font-weight: 700;
+                            font-size: 40px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: rgba(88, 169, 165, 1);
+                        }
+                        p{
+                            color: rgba(72, 105, 88, 1);
+                            font-family: Poppins;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            padding: 20px 0;
+                            
+
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
