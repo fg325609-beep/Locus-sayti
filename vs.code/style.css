@@ -113,4 +113,91 @@ main section .container .section_one .section_one_right {
 }
 main section .container .section_one .section_one_right img {
   width: 100%;
+}
+main section .container .section_two_text {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+main section .container .section_two_text h1 {
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main section .container .section_two_text p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main section .container .section_two {
+  position: relative;
+}
+main section .container .section_two .pozition_vido {
+  position: absolute;
+  bottom: 50px;
+  right: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+}
+main section .container .section_two .pozition_vido .pozition_vido_two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+main section .container .section_two .pozition_vido .pozition_vido_two img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+main section .container .section_two {
+  padding: 40px 0;
+  display: flex;
+}
+main section .container .section_two .section_two_left {
+  width: 70%;
+  border-radius: 10px;
+}
+main section .container .section_two .section_two_left img {
+  width: 100%;
+}
+main section .container .section_two .section_two_right {
+  width: 30%;
+  background: rgb(176, 196, 186);
+  display: flex;
+  align-items: start;
+  padding: 0 40px;
+  justify-content: center;
+  flex-direction: column;
+}
+main section .container .section_two .section_two_right p {
+  color: rgb(72, 105, 88);
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 20px 0;
+}
+main section .container .section_two .section_two_right a {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(72, 105, 88);
 }/*# sourceMappingURL=style.css.map */
