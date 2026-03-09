@@ -295,4 +295,53 @@ main section .container .section_five_title .section_five_title_imgs {
 }
 main section .container .section_five_title .section_five_title_imgs img {
   width: 15%;
+}
+main section .container .section_five {
+  background: rgb(204, 240, 230);
+  display: flex;
+  align-items: start;
+}
+main section .container .section_five .section_five_left {
+  width: 40%;
+}
+main section .container .section_five .section_five_left img {
+  width: 100%;
+}
+main section .container .section_five .section_five_right {
+  width: 60%;
+}
+main section .container .section_five .section_five_right .yuqori_qismi {
+  display: flex;
+}
+main section .container .section_five .section_five_right .yuqori_qismi span {
+  flex-direction: column;
+}
+main section .container .section_five .section_five_right .yuqori_qismi span h1 {
+  width: 10%;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main section .container .section_five .section_five_right .yuqori_qismi span p {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main section .container .section_five .section_five_right .past_qismi p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main section .container .section_five .section_five_right .past_qismi a {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }/*# sourceMappingURL=style.css.map */

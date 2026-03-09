@@ -369,7 +369,61 @@ main{
                 }
             }
             .section_five{
+                background: rgba(204, 240, 230, 1);
 
+                display: flex;
+                align-items: start;
+               .section_five_left{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+               }
+               .section_five_right{
+                width: 60%;
+                .yuqori_qismi{
+                    display: flex;  
+                    
+                    span{
+                        flex-direction: column;
+                        h1{
+                            width: 10%;
+                            font-family: Poppins;
+                            font-weight: 800;
+                            font-size: 70px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            
+                        }
+                        p{
+                            font-family: Poppins;
+                            font-weight: 600;
+                            font-size: 30px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            
+                        }
+                    }
+                }
+                .past_qismi{
+                    p{
+                        font-family: Poppins;
+                        font-weight: 500;
+                        font-size: 25px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        
+                    }
+                    a{
+                       font-family: Poppins;
+                       font-weight: 500;
+                       font-size: 25px;
+                       line-height: 100%;
+                       letter-spacing: 0%;
+                       
+                    }
+                }
+               }
             }
 
             
