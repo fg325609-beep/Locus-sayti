@@ -351,5 +351,29 @@ main{
             }
         }
     }
+
+
+
+    section{
+        .container{
+            .section_five_title{
+                text-align: center;
+                .section_five_title_imgs{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    justify-content: space-evenly;
+                    img{
+                        width: 15%;
+                    }
+                }
+            }
+            .section_five{
+
+            }
+
+            
+        }
+    }
 }
 

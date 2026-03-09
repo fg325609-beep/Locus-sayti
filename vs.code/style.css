@@ -283,4 +283,16 @@ main section .container .section_foo .cads .card p {
   line-height: 100%;
   letter-spacing: 0%;
   padding: 20px 0;
+}
+main section .container .section_five_title {
+  text-align: center;
+}
+main section .container .section_five_title .section_five_title_imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+main section .container .section_five_title .section_five_title_imgs img {
+  width: 15%;
 }/*# sourceMappingURL=style.css.map */
