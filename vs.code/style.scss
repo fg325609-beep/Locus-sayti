@@ -177,6 +177,7 @@ main{
                 .section_two{
                     position: relative;
                     .pozition_vido{
+                        z-index: 10;
                          position: absolute;
                           bottom: 50px;
                           right: 280px;
