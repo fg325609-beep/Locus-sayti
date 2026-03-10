@@ -32,6 +32,9 @@ header .container .navbar .navbar_left i {
 header .container .navbar .navbar_centr {
   display: flex;
 }
+header .container .navbar .navbar_centr .menu {
+  display: none;
+}
 header .container .navbar .navbar_centr ul {
   display: flex;
   gap: 40px;
@@ -441,4 +444,90 @@ main section .container .section_six .section_six_right form a {
   border-bottom-right-radius: 20px;
   padding: 15px 25px;
   background: rgb(88, 169, 165);
+}
+
+@media (max-width: 872px) {
+  main section .container .section_two_text h1 {
+    font-size: 30px;
+  }
+  main section .container .section_two .section_two_left {
+    width: 100%;
+  }
+  main section .container .section_two .section_two_right {
+    width: 100%;
+  }
+  main section .container .section_two {
+    flex-direction: column;
+  }
+  main section .container .section_two .pozition_vido {
+    display: none;
+  }
+  main section .container .section_one {
+    flex-direction: column-reverse;
+  }
+  main section .container .section_one .section_one_right {
+    width: 100%;
+  }
+  main section .container .section_one .section_one_left h1 {
+    font-size: 30px;
+  }
+  main section .container .section_one .section_one_left {
+    width: 100%;
+    text-align: center;
+  }
+  main section .container .section_thearee {
+    flex-direction: column;
+  }
+  main section .container .section_thearee .section_thearee_left {
+    width: 100%;
+  }
+  main section .container .section_thearee .section_thearee_right {
+    text-align: center;
+    width: 100%;
+  }
+  main section .container .section_foo {
+    background: black;
+  }
+  main section .container .section_foo .cads {
+    flex-direction: column;
+  }
+  main section .container .section_foo .cads .card {
+    text-align: center;
+    width: 100%;
+  }
+  main section .container .section_five_title {
+    flex-wrap: wrap;
+  }
+  main section .container .section_five {
+    flex-direction: column;
+  }
+  main section .container .section_five .section_five_left {
+    width: 100%;
+  }
+  main section .container .section_five .section_five_right {
+    width: 100%;
+    text-align: center;
+  }
+  main section .container .section_six {
+    flex-direction: column;
+  }
+  main section .container .section_six .section_six__left h1 {
+    font-size: 30px;
+  }
+  main section .container .section_six .section_six__left {
+    width: 100%;
+  }
+  main section .container .section_six .section_six_right {
+    width: 100%;
+  }
+  header .container .navbar {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  header .container .navbar .navbar_centr .menu {
+    display: block;
+  }
+  header .container .navbar .navbar_centr ul {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -35,6 +35,9 @@ header{
             }
             .navbar_centr{
                 display: flex;
+                .menu{
+                    display: none;
+                }
                 ul{
                     display: flex;
                     gap: 40px;
@@ -535,3 +538,137 @@ main{
     }
 }
 
+
+
+@media(max-width:872px){
+    main{
+        section{
+            .container{
+                .section_two_text{
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+                .section_two{
+                    .section_two_left{
+                        width: 100%;
+                    }
+                    .section_two_right{
+                        width: 100%;
+                    }
+                    flex-direction: column;
+                    .pozition_vido{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        section{
+            .container{
+                .section_one{
+                    flex-direction: column-reverse;
+                    .section_one_right{
+                        width: 100%;
+                    }
+                    .section_one_left{
+                        h1{
+                            font-size: 30px
+                        }
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        section{
+            .container{
+                .section_thearee{
+                    flex-direction: column;
+                    .section_thearee_left{
+                        width: 100%;
+                    }
+                    .section_thearee_right{
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+
+        section{
+            .container{
+                .section_foo{
+                    background: black;
+                    .cads{
+
+                        flex-direction: column;
+                        .card{
+                            text-align: center;
+                            width: 100%;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        section{
+            .container{
+                .section_five_title{
+                    flex-wrap: wrap;
+                }
+                .section_five{
+                    flex-direction: column;
+                    .section_five_left{
+                        width: 100%;
+
+                    }
+                    .section_five_right{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+
+        section{
+            .container{
+                .section_six{
+                    flex-direction: column;
+                    .section_six__left{
+                        h1{
+                            font-size: 30px;
+                        }
+                        width: 100%;
+
+                    }
+                    .section_six_right{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+    header{
+        .container{
+            .navbar{
+                flex-wrap: wrap;
+                gap: 20px;
+                .navbar_centr{
+                    .menu{
+                        display: block;
+                    }
+                    ul{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
