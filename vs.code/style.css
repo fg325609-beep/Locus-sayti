@@ -297,46 +297,69 @@ main section .container .section_five_title .section_five_title_imgs img {
   width: 15%;
 }
 main section .container .section_five {
-  background: rgb(204, 240, 230);
   display: flex;
-  align-items: start;
+  align-items: center;
 }
 main section .container .section_five .section_five_left {
-  width: 40%;
+  width: 50%;
+  height: auto;
 }
 main section .container .section_five .section_five_left img {
   width: 100%;
 }
 main section .container .section_five .section_five_right {
-  width: 60%;
+  padding: 310px 20px;
+  position: relative;
+}
+main section .container .section_five .section_five_right .orqafon {
+  position: absolute;
+  z-index: -1;
+  width: 10%;
+  left: 15px;
+  top: 40px;
+}
+main section .container .section_five .section_five_right {
+  height: auto;
+  background: rgb(204, 240, 230);
+  width: 50%;
 }
 main section .container .section_five .section_five_right .yuqori_qismi {
   display: flex;
 }
-main section .container .section_five .section_five_right .yuqori_qismi span {
+main section .container .section_five .section_five_right .yuqori_qismi .span {
+  width: 20%;
   flex-direction: column;
+  display: flex;
+  align-items: center;
 }
-main section .container .section_five .section_five_right .yuqori_qismi span h1 {
-  width: 10%;
+main section .container .section_five .section_five_right .yuqori_qismi .span h1 {
+  width: 100%;
   font-family: Poppins;
   font-weight: 800;
   font-size: 70px;
   line-height: 100%;
   letter-spacing: 0%;
 }
-main section .container .section_five .section_five_right .yuqori_qismi span p {
+main section .container .section_five .section_five_right .yuqori_qismi .span p {
   font-family: Poppins;
   font-weight: 600;
   font-size: 30px;
   line-height: 100%;
   letter-spacing: 0%;
 }
+main section .container .section_five .section_five_right .past_qismi {
+  z-index: 1;
+}
 main section .container .section_five .section_five_right .past_qismi p {
+  z-index: 10;
   font-family: Poppins;
   font-weight: 500;
   font-size: 25px;
   line-height: 100%;
   letter-spacing: 0%;
+  padding: 50px 0;
+  justify-content: center;
+  align-self: center;
 }
 main section .container .section_five .section_five_right .past_qismi a {
   font-family: Poppins;
@@ -344,4 +367,9 @@ main section .container .section_five .section_five_right .past_qismi a {
   font-size: 25px;
   line-height: 100%;
   letter-spacing: 0%;
+  color: rgb(88, 169, 165);
+}
+main section .container .section_five .section_five_right .past_qismi a:hover {
+  color: rgb(78, 172, 94);
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
