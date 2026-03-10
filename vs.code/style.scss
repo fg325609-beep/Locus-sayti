@@ -317,7 +317,7 @@ main{
 
             }
             .section_foo{
-                padding: 100px;
+                padding: 100px 0;
                 .cads{
                     display: flex;
                     align-items: center;
@@ -381,7 +381,7 @@ main{
                 }
                }
                .section_five_right{
-                padding: 310px 20px;
+                // padding: 310px 20px;
                 position: relative;
                 .orqafon{
                     position: absolute;
@@ -454,6 +454,83 @@ main{
             }
 
             
+        }
+    }
+
+
+    section{
+        .container{
+            .section_six{
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                .section_six__left{
+                    .shiziq{
+                        width: 20%;
+                    }
+                    width: 35%;
+                    h1{
+                        font-family: Poppins;
+                        font-weight: 800;
+                        font-size: 70px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        
+                    }
+                    p{
+                        font-family: Poppins;
+                        font-weight: 500;
+                        font-size: 25px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        padding: 20px 0;
+                        
+                    }
+                }
+                .section_six_right{
+                    width: 55%;
+                    form{
+                        padding: 20px;
+                        hr{
+                            padding: 0 20px ;
+                        }
+                        border: 1px solid rgba(72, 105, 88, 1);
+                        input{
+                            outline: none;
+                            border: none;
+                            padding: 30px 20px ;
+                            textarea{
+                            padding: 30px 20px ;
+                             outline: none;
+                            border: none;
+
+                            }
+                        }
+                        display: flex;
+                        flex-direction: column;
+                        a{
+                            align-self: flex-end;
+                            width: 200px;
+                            align-items: center;
+                            justify-content: center;
+                            display: flex;
+                            font-family: Poppins;
+                         font-weight: 700;
+                         font-size: 25px;
+                         line-height: 100%;
+                         letter-spacing: 0%;
+                         color: rgba(255, 255, 255, 1);
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        padding: 15px 25px;
+                        background: rgba(88, 169, 165, 1);
+
+                        
+                        }
+                    }
+                }
+            }
         }
     }
 }
